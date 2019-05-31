@@ -1,0 +1,137 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{7}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Rycroft}(2009)}]{Rycroft09}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont
+  {Rycroft}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Chaos}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {041111}
+  (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
+  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}]{Spasojevic11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
+  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
+  10.1103/PhysRevLett.106.175701} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
+  {175701} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
+  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}]{Spasojevic11-2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
+  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
+  10.1103/PhysRevE.84.051119} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {84}},\ \bibinfo {pages} {051119}
+  (\bibinfo {year} {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2011)\citenamefont {Chen},
+  \citenamefont {Papanikolaou}, \citenamefont {Sethna}, \citenamefont
+  {Zapperi},\ and\ \citenamefont {Durin}}]{Chen11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~J.}\ \bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Papanikolaou}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Sethna}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Zapperi}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Durin}},\ }\href {\doibase
+  10.1103/PhysRevE.84.061103} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {84}},\ \bibinfo {pages} {061103}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bray}\ and\ \citenamefont
+  {Moore}(1985)}]{BrayMoore85}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Bray}}\ and\ \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Moore}},\ }\href {http://stacks.iop.org/0022-3719/18/i=28/a=006} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys. C: Solid State Physics}\ }\textbf
+  {\bibinfo {volume} {18}},\ \bibinfo {pages} {L927} (\bibinfo {year}
+  {1985})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(1996)\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}},
+  \citenamefont {Dahmen},\ and\ \citenamefont {Sethna}}]{Perkovic96}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Dahmen}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv:cond-mat/9609072}\ } (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Raju}\ \emph {et~al.}(2019)\citenamefont {Raju},
+  \citenamefont {Clement}, \citenamefont {Hayden}, \citenamefont {Kent-Dobias},
+  \citenamefont {Liarte}, \citenamefont {Rocklin},\ and\ \citenamefont
+  {Sethna}}]{Raju17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Raju}}, \bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont {Clement}},
+  \bibinfo {author} {\bibfnamefont {L.~X.}\ \bibnamefont {Hayden}}, \bibinfo
+  {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Kent-Dobias}}, \bibinfo
+  {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Liarte}}, \bibinfo {author}
+  {\bibfnamefont {D.~Z.}\ \bibnamefont {Rocklin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume}
+  {9}},\ \bibinfo {pages} {021014} (\bibinfo {year} {2019})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%
