@@ -62,7 +62,7 @@ The model considered is an avalanche model with nearest neighbor coupling $J$ an
 %
 \begin{equation}
 	\label{eq:TruncNF}
-	\frac{dw}{d\ell}=w^2+B w^3
+	\frac{dw}{d\ell}=w^2+B w^3 ,
 \end{equation}
 \noindent which corresponds to the normal form of a transcritical bifurcation~\footnote{The traditional transcritical bifurcation normal form~\cite{Strogatz14} $dw/d\ell = w^2$ is derived using the implicit function theorem, but involves changes of variables that alter critical properties in singular ways. Eq.~\ref{eq:TruncNF} is the simplest form that can be reached by successive polynomial changes of variables.}. We may directly solve for the correlation length $\xi\sim(1/w + B)^{-B}\exp(1/w)$ in the normal form variables ~\cite[Section~\ref{supp-app:correlation}]{RFIM2Dsupp}.\par
 %
@@ -70,7 +70,7 @@ Next consider the flow equations for $s$ and $h$. The eigenvalues for these are 
 %
 \begin{equation}
 	\begin{split}
-		&\frac{ds}{d\ell}= -d_f s-C s w\\
+		&\frac{ds}{d\ell}= -d_f s-C s w ,\\ 
 		&\frac{dh}{d\ell}= \lambda_h h+F h w
 	\end{split}
 \end{equation}
@@ -82,7 +82,7 @@ The appropriate scaling variables to collapse the data can be directly calculate
 %
 \begin{equation}
  	\label{eq:SigmaOfw}
-	\Sigma(w) = \Sigma_s \bigg{(}B+\frac{1}{w}\bigg{)}^{-B d_f+C}\exp \bigg{(}\frac{d_f}{w}\bigg{)}
+	\Sigma(w) = \Sigma_s \bigg{(}B+\frac{1}{w}\bigg{)}^{-B d_f+C}\exp \bigg{(}\frac{d_f}{w}\bigg{)} .
 \end{equation}
 %
 \noindent Likewise for $h$, we obtain:
@@ -145,7 +145,7 @@ As a test of our finding that the 2D NE-RFIM corresponds to a transcitical bifur
 It is particulary illuminating to consider the behavior of $1/\log\Sigma(w)$. For a transcritical bifurcation, the exponential divergence (ignoring $B$ and $C$ in Equation~\ref{eq:SigmaOfw}) gives
 %
 \begin{equation}
-	\frac{1}{\log\Sigma(w)} \sim \frac{1}{d_f} w
+	\frac{1}{\log\Sigma(w)} \sim \frac{1}{d_f} w .
 \end{equation}
 %
 \noindent Hence, if the behavior corresponds to a transcritical bifurcation, we would expect a plot of $1/\log\Sigma$ to scale linearly with the disorder. A comparison of the linear fit to $1/\log\Sigma$, along with the plots of $1/\log\Sigma$ for the best fits with a power law and pitchfork form are shown in Figure~\ref{fig:logplot}.
@@ -164,7 +164,7 @@ Although the transcitical bifurcation provides the best description of our simul
 %
 In summation, performing large scale simulations on a Voronoi lattice and analyzing the RG flow equations yields valuable insight into the behavior of the NE-RFIM in 2D. The obtained scaling collapses span over a range of a factor of ten in the disorder and a factor of $10^4$ in avalanche cutoff. They are consistent with a critical disorder at zero and with a lower critical dimension for the model equal to two. 
 %
-This work was partially supported by NSF grants  DMR-1719490 and DGE-1144153. We thank A. Alan Middleton and Gilles Tarjus for helpful discussions. 
+This work was partially supported by NSF grants  DMR-1719490 and DGE-1144153. AR acknowledges support from the Simons Foundation. We thank A. Alan Middleton and Gilles Tarjus for helpful discussions. 
 
 \bibliography{RFIM2D}{}
 
