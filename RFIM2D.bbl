@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{33}%
+\begin{thebibliography}{34}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,68 +50,6 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
-  {et~al.}(2011{\natexlab{a}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
-  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
-  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}}]{Spasojevic11}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
-  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
-  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
-  10.1103/PhysRevLett.106.175701} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
-  {175701} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
-  {et~al.}(2011{\natexlab{b}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
-  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
-  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
-  \'{c}\fi{}}}]{Spasojevic11-2}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
-  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
-  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
-  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
-  10.1103/PhysRevE.84.051119} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  Rev. E}\ }\textbf {\bibinfo {volume} {84}},\ \bibinfo {pages} {051119}
-  (\bibinfo {year} {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
-  {et~al.}(1996)\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}},
-  \citenamefont {Dahmen},\ and\ \citenamefont {Sethna}}]{Perkovic96}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
-  {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
-  {\bibfnamefont {K.}~\bibnamefont {Dahmen}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {arXiv:cond-mat/9609072}\ } (\bibinfo {year}
-  {1996})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Kuntz}(1999)}]{KuntzPhD}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
-  {Kuntz}},\ }\href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Cornell
-  University} (\bibinfo {year} {1999})\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Raju}\ \emph {et~al.}(2019)\citenamefont {Raju},
-  \citenamefont {Clement}, \citenamefont {Hayden}, \citenamefont {Kent-Dobias},
-  \citenamefont {Liarte}, \citenamefont {Rocklin},\ and\ \citenamefont
-  {Sethna}}]{Raju17}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Raju}}, \bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont {Clement}},
-  \bibinfo {author} {\bibfnamefont {L.~X.}\ \bibnamefont {Hayden}}, \bibinfo
-  {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Kent-Dobias}}, \bibinfo
-  {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Liarte}}, \bibinfo {author}
-  {\bibfnamefont {D.~Z.}\ \bibnamefont {Rocklin}}, \ and\ \bibinfo {author}
-  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume}
-  {9}},\ \bibinfo {pages} {021014} (\bibinfo {year} {2019})}\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {Bertotti}(1998)}]{Bertotti98}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
@@ -279,6 +217,48 @@
   10.1103/PhysRevLett.75.4528} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages}
   {4528} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(1996)\citenamefont {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}},
+  \citenamefont {Dahmen},\ and\ \citenamefont {Sethna}}]{Perkovic96}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Perkovi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Dahmen}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {arXiv:cond-mat/9609072}\ } (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
+  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}]{Spasojevic11}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
+  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
+  10.1103/PhysRevLett.106.175701} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
+  {175701} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Spasojevi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}, \citenamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}},\ and\ \citenamefont
+  {Kne\ifmmode \check{z}\else \v{z}\fi{}evi\ifmmode~\acute{c}\else
+  \'{c}\fi{}}}]{Spasojevic11-2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Spasojevi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Jani\ifmmode \acute{c}\else
+  \'{c}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kne\ifmmode \check{z}\else
+  \v{z}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}},\ }\href {\doibase
+  10.1103/PhysRevE.84.051119} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {84}},\ \bibinfo {pages} {051119}
+  (\bibinfo {year} {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Thongjaomayum}\ and\ \citenamefont
   {Shukla}(2013)}]{Thongjaomayum13}%
   \BibitemOpen
@@ -336,6 +316,26 @@
   {\doibase 10.1103/PhysRevE.52.R5} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo {pages} {R5}
   (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuntz}(1999)}]{KuntzPhD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Kuntz}},\ }\href@noop {} {Ph.D. thesis},\ \bibinfo  {school} {Cornell
+  University} (\bibinfo {year} {1999})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Raju}\ \emph {et~al.}(2019)\citenamefont {Raju},
+  \citenamefont {Clement}, \citenamefont {Hayden}, \citenamefont {Kent-Dobias},
+  \citenamefont {Liarte}, \citenamefont {Rocklin},\ and\ \citenamefont
+  {Sethna}}]{Raju17}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Raju}}, \bibinfo {author} {\bibfnamefont {C.~B.}\ \bibnamefont {Clement}},
+  \bibinfo {author} {\bibfnamefont {L.~X.}\ \bibnamefont {Hayden}}, \bibinfo
+  {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Kent-Dobias}}, \bibinfo
+  {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Liarte}}, \bibinfo {author}
+  {\bibfnamefont {D.~Z.}\ \bibnamefont {Rocklin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~P.}\ \bibnamefont {Sethna}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume}
+  {9}},\ \bibinfo {pages} {021014} (\bibinfo {year} {2019})}\BibitemShut
+  {NoStop}%
 \bibitem [{RFI()}]{RFIM2Dsupp}%
   \BibitemOpen
   \href@noop {} {}\bibinfo {note} {See Supplemental Material at [URL inserted
@@ -355,6 +355,13 @@
   {{Sethna}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages} {14872}
   (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuntz}\ and\ \citenamefont {Sethna}(2000)}]{Kuntz00}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Kuntz}}\ and\ \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Sethna}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {62}} (\bibinfo {year}
+  {2000})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Strogatz}(2014)}]{Strogatz14}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont

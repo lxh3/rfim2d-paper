@@ -1,5 +1,5 @@
 %
-\documentclass[reprint,amsmath,amssymb,aps,floatfix]{revtex4-1}
+\documentclass[reprint,amsmath,amssymb,aps,floatfix, prl]{revtex4-1}
 %
 \usepackage{verbatim}
 \usepackage{graphicx}
@@ -18,8 +18,13 @@
 %
 \title{Weird scaling for 2-D avalanches: \\Curing the faceting, and scaling in the lower critical dimension}
 %
-\author{L. X. Hayden, Archishman Raju, James P. Sethna}
+\author{L. X. Hayden}
 \affiliation{ LASSP, Physics Department, Cornell University \\
+ Ithaca, NY 14853-2501, United States}
+ \author {Archishman Raju}
+ \affiliation {The Rockefeller University, New York, NY 10065}
+ \author{James P. Sethna}
+ \affiliation{LASSP, Physics Department, Cornell University \\
  Ithaca, NY 14853-2501, United States}
 %
 \date{\today}
@@ -32,7 +37,7 @@ The non-equilibrium random-field Ising model is well studied, yet there are outs
 
 The non-equilibrium random-field Ising model (NE-RFIM) is a model of long-standing interest. This model, albeit simple, contains the necessary ingredients to describe hysteretic and avalanche behaviors in a diverse set of systems. Barkhausen noise in magnets~\cite{Bertotti98} decision making in socio-economics~\cite{Bouchaud13}, absorption and desorption in superfluids~\cite{Lilly96, Detcheverry04} as well as the effects of nematicity in high $T_c$ superconductors~\cite{Bonetti04, Carlson06, Phillabaum2012} can each be understood in terms of `crackling noise' naturally described by the NE-RFIM. \par
 %
-Although the random-field Ising model itself has been around in various forms since the 1970s~\cite{ImryMa75}, there are still a number of open questions:
+Although the NE-RFIM itself has been around in various forms since the 1970s~\cite{ImryMa75}, there are still a number of open questions:
 %
 \begin{itemize}
 	\item Is it in the same universality class as the equilibrium model?
@@ -43,29 +48,29 @@ Although the random-field Ising model itself has been around in various forms si
 %
 It has long been debated whether the equilibrium and non-equilibrium versions of the model are in the same universality class. This question of universality has been approached in a number of ways which have suggested the same class for the two models~\cite{Maritan94, Perez-Reche04, Colaiori04, LiuDahmen09, LiuDahmen09-2,BalogTissierTarjus14}. Recently, however, evidence has been provided that this is not the case~\cite{BalogTarjusTissier18}. Our findings pretty clearly imply this latter result. \par
 %
-Another open question concerns the lower critical dimension (LCD) of the non-equilibrium model. For the equilibrium case, the LCD is accepted to be two~\cite{BrayMoore85} and there is evidence to believe the same is true of the front-propagation model~\cite{Drossel98}. For the nucleated model, there have been conflicting analysis including work suggesting that the LCD is two~\cite{Perkovic95,Perkovic96}, that power-laws are indeed able to capture the behavior and no crossover occurs in 2D~\cite{Spasojevic11, Spasojevic11-2}, and even that a lower critical dimension does not exist for this model~\cite{Thongjaomayum13,Kurbah15,Shukla16,Shukla17}. Here, we find the success of normal form theory to be consistent with a LCD of two. \par
+Another open question concerns the lower critical dimension (LCD) of the non-equilibrium model. For the equilibrium case, the LCD is accepted to be two~\cite{BrayMoore85} and there is evidence to believe the same is true of the front-propagation model~\cite{Drossel98}. For the nucleated model, there have been conflicting analysis including work suggesting that the LCD is two~\cite{Perkovic95,Perkovic96}, that power-laws are indeed able to capture the behavior and no crossover occurs in 2D~\cite{Spasojevic11, Spasojevic11-2}, and even that a lower critical dimension does not exist for this model~\cite{Thongjaomayum13,Kurbah15,Shukla16,Shukla17}. Here, we find the success of our results to be consistent with a LCD of two. \par
 %
 Yet another open question is what value $r_c$ takes in two dimensions for the nucleated model. In the nucleated model, the critical disorder appears to decrease with dimension, going from $5.96 \pm 0.02$ in 5D to $2.16 \pm 0.03$ in 3D~\cite{Sethna06}. This behavior in conjunction with the observation that for both the equilibrium and front-propagation problems, $r_c$ is found to be zero~\cite{Drossel98} suggests that $r_c$ may be quite small. The results we present here are consistent with $r_c=0$.\par
 %
-Finally, it has yet to be resolved whether a power law form is sufficient to describe the behavior in 2D.  Fitting assuming a power law form, Vives {\em et. al.} found $r_c$ to take the value $0.75 \pm 0.03$~\cite{Vives95}. More recently, on a much larger square lattice, Spasojevic at. al. find $r_c=0.54\pm0.02$~\cite{Spasojevic11, Spasojevic11-2} collapsing over a range of $r \in [0.64, 0.70]$. We expect this discrepancy to be replicated in simulations on a larger scale with $r_c$ taking a yet smaller value and suggest this type of inconsistency in power law scaling points to a deficit in its ability to accurately capture the critical behavior in 2D.\par
+Finally, it has yet to be resolved whether a power law form is sufficient to describe the behavior in 2D.  Fitting assuming a power law form, Vives {\em et al.} found $r_c$ to take the value $0.75 \pm 0.03$~\cite{Vives95}. More recently, on a much larger square lattice, Spasojevic {\em et al.} find $r_c=0.54\pm0.02$~\cite{Spasojevic11, Spasojevic11-2} collapsing over a range of $r \in [0.64, 0.70]$. We expect this discrepancy to be replicated in simulations on a larger scale with $r_c$ taking a yet smaller value and suggest this type of inconsistency in power law scaling points to a deficit in its ability to accurately capture the critical behavior in 2D.\par
 %
 Power law scaling collapses have long been a preferred method for demonstrating that the behavior of a critical system is well understood. That this type of heuristic procedure can work so well in such a widespread number of applications is initially surprising and leads naturally to the question of when and why this approach fails. For example, in the two-dimensional non-equilibrium random-field Ising model (2D NE-RFIM),  attempted collapses assuming power law scaling perform in very limited ranges of disorder~\cite{Spasojevic11, Spasojevic11-2, Perkovic96, KuntzPhD}, which we argue is a symptom of non-power law scaling. This failure can also be observed in a number of other systems, particularly at their lower and upper critical dimension. Recently, Raju et. al.~\cite{Raju17} have been successful in describing the non-linearities that arise in renormalization group flows from the perspective of normal form theory. This fomulation provides a systematic method to perform scaling collapses. In the cases for which power laws work well, the dynamics can be described simply by the presence of a hyperbolic fixed point; the eigenvalues are non-zero and there is no qualitative change in the stability of the fixed points. We propose it is the presence of a transcritical bifurcation in the disorder flow equation that corresponds to the rise in complexity needed to describe simulation data of the 2D NE-RFIM. By considering the form the flow equations should take, we are able to provide concrete non-linear scaling variables which enable collapse of our data over a range of a factor of ten in the disorder.\par
 %
 In addition to the application of our normal form theory of the Renomalization Group, another key component to the success of our collapses is an approach to dealing with the faceting. Running simulations on a square lattice leads to distortions in the shape of the distributions of interest due to lattice effects as the critical point is approached. Long, unnaturally straight avalanche boundaries for small disorder arise which serve to effectively decrease the simulation size. To combat this, we run our simulations on a Voronoi lattice~\cite[Section~\ref{supp-app:sims}]{RFIM2Dsupp}.  Although this could in principle introduce an amount of intrinsic disorder, we find the Voronoi lattice to be effective in combating faceting effects, enabling clean collapses over a range of a factor of ten in the disorder, a significantly larger range than the current available collapses which use data in a range $\approx 10\%$.\par
 %
-The model considered is an avalanche model with nearest neighbor coupling $J$ and a randomized bias $r$ under the influence of an adiabatically increasing field $h$. Avalanche size is denoted $s$. Following the convention of Bray and Moore~\cite{BrayMoore85} for the equilibrium model, we define a parameter $w$ which corresponds to the ratio of the disorder $r$ over the coupling $J$ and determine its RG flow equation through symmetry considerations. In principle, there are an infinite series of terms. Using only analytic changes of variables, however, it is possible to remove all terms of $O(4)$ or higher without removing any universal behavior ~\cite[Section~\ref{supp-app:normalform}]{RFIM2Dsupp}. The final form of the flow equation is given by 
+The model considered is an avalanche model with nearest neighbor coupling $J$ and a randomized bias $r$ under the influence of an adiabatically increasing field $h$. Avalanche size is denoted $s$. Following the convention of Bray and Moore~\cite{BrayMoore85} for the equilibrium model, we define a parameter $w$ which corresponds to the ratio of the disorder $r$ over the coupling $J$ and determine its RG flow equation through symmetry considerations. In principle, there are an infinite series of terms. Using only analytic changes of variables, however, it is possible to remove all terms of $O(4)$ or higher without removing any universal behavior ~\cite[Section~\ref{supp-app:normalform}]{RFIM2Dsupp}. The final form of the flow equation for $w$ is given by 
 %
 \begin{equation}
 	\label{eq:TruncNF}
-	\frac{dw}{d\ell}=w^2+B w^3
+	\frac{dw}{d\ell}=w^2+B w^3 ,
 \end{equation}
-\noindent which corresponds to the normal form of a transcritical bifurcation~\footnote{The traditional transcritical bifurcation normal form~\cite{Strogatz14} $dw/d\ell = w^2$ is derived using the implicit function theorem, but involves changes of variables that alter critical properties in singular ways. Eq.~\ref{eq:TruncNF} is the simplest form that can be reached by successive polynomial changes of variables.}. We may directly solve for the correlation length $\xi\sim(\frac{1}{w}+B)^{-B}\exp(\frac{1}{w})$ in the normal form variables ~\cite[Section~\ref{supp-app:correlation}]{RFIM2Dsupp}.\par
+\noindent which corresponds to the normal form of a transcritical bifurcation~\footnote{The traditional transcritical bifurcation normal form~\cite{Strogatz14} $dw/d\ell = w^2$ is derived using the implicit function theorem, but involves changes of variables that alter critical properties in singular ways. Eq.~\ref{eq:TruncNF} is the simplest form that can be reached by successive polynomial changes of variables.}. We may directly solve for the correlation length $\xi\sim(1/w + B)^{-B}\exp(1/w)$ in the normal form variables ~\cite[Section~\ref{supp-app:correlation}]{RFIM2Dsupp}.\par
 %
 Next consider the flow equations for $s$ and $h$. The eigenvalues for these are given by $\lambda_s=d_f$ and $\lambda_h$ respectively where $d_f$ denotes the fractal dimension. In each case, the zero eigenvalue of $w$ gives rise to cross terms between $s$ and $w$ and $h$ and $w$. Again, in principle, we have an infinite number of possible terms but most all terms may be removed with a polynomial change of variables.   The flow equations for $s$ and $h$ are hence given by
 %
 \begin{equation}
 	\begin{split}
-		&\frac{ds}{d\ell}= -d_f s-C s w\\
+		&\frac{ds}{d\ell}= -d_f s-C s w ,\\ 
 		&\frac{dh}{d\ell}= \lambda_h h+F h w
 	\end{split}
 \end{equation}
@@ -77,7 +82,7 @@ The appropriate scaling variables to collapse the data can be directly calculate
 %
 \begin{equation}
  	\label{eq:SigmaOfw}
-	\Sigma(w) = \Sigma_s \bigg{(}B+\frac{1}{w}\bigg{)}^{-B d_f+C}\exp \bigg{(}\frac{d_f}{w}\bigg{)}
+	\Sigma(w) = \Sigma_s \bigg{(}B+\frac{1}{w}\bigg{)}^{-B d_f+C}\exp \bigg{(}\frac{d_f}{w}\bigg{)} .
 \end{equation}
 %
 \noindent Likewise for $h$, we obtain:
@@ -91,7 +96,7 @@ The appropriate scaling variables to collapse the data can be directly calculate
 %
 First consider the area weighted size distribution $A(s|w)$. In analogy with three dimensions, we take $A(s|w) = s^{-1}v_s^x \mathcal{A}(v_s^y)$ where $v_s$ is the scaling variable and the prefactor of $s^{-1}$ arises from normalization constraints with $v_s=s/\Sigma(w)$ from Equation~\ref{eq:SigmaOfw}. The avalanche size distribution also depends on an unknown universal scaling function, $\mathcal{A}$. To perform scaling collapses via a fit, we assume a form for this equation~\cite[Section~\ref{supp-app:universal}]{RFIM2Dsupp}. The associated collapse is shown in Figure \ref{fig:As_collapse}. \par
 %
-Likewise, in analogy with three dimensions, we obtain $\frac{dM}{dh}(h|w)=\eta(w)^{-1}\frac{d\mathcal{M}}{dh}(v_h)$ where $v_h=(h-h_{max})/\eta(w)$ is the scaling variable~\cite[Section~\ref{supp-app:magscale}]{RFIM2Dsupp}. The associated collapse is shown in Figure \ref{fig:dMdh_collapse}.
+Likewise, in analogy with three dimensions, we obtain $dM/dh(h|w)=\eta(w)^{-1} d\mathcal{M}/dh(v_h)$ where $v_h=(h-h_{max})/\eta(w)$ is the scaling variable~\cite[Section~\ref{supp-app:magscale}]{RFIM2Dsupp}. The associated collapse is shown in Figure \ref{fig:dMdh_collapse}.
 %
 \begin{figure}
 	\includegraphics[scale=0.3]{A_collapse_inset.png}
@@ -140,7 +145,7 @@ As a test of our finding that the 2D NE-RFIM corresponds to a transcitical bifur
 It is particulary illuminating to consider the behavior of $1/\log\Sigma(w)$. For a transcritical bifurcation, the exponential divergence (ignoring $B$ and $C$ in Equation~\ref{eq:SigmaOfw}) gives
 %
 \begin{equation}
-	\frac{1}{\log\Sigma(w)} \sim \frac{1}{d_f} w
+	\frac{1}{\log\Sigma(w)} \sim \frac{1}{d_f} w .
 \end{equation}
 %
 \noindent Hence, if the behavior corresponds to a transcritical bifurcation, we would expect a plot of $1/\log\Sigma$ to scale linearly with the disorder. A comparison of the linear fit to $1/\log\Sigma$, along with the plots of $1/\log\Sigma$ for the best fits with a power law and pitchfork form are shown in Figure~\ref{fig:logplot}.
@@ -157,9 +162,21 @@ Simulation data of the 2D non-equilibrium random-field Ising model on a lattice 
 %
 Although the transcitical bifurcation provides the best description of our simulation data, the corresponding parameter values are difficult to pin down. There are a number of restrictions we can make to the parameter values and still obtain a reasonable joint fit of $\Sigma(w)$ and $\eta(w)$ For example, we may require that the Harris criteria saturates, that $r_c=0$~\cite{Perkovic96} or that the coefficient of the quintic order term $B=0$. Each of these provides a good description of our data and are discussed in~\cite[Section~\ref{supp-app:goodfits}]{RFIM2Dsupp}. \par
 %
-In summation, performing large scale simulations on a Voronoi lattice and analyzing the RG flow equations yields valuable insight into the behavior of the NE-RFIM in 2D. The obtained scaling collapses span over a range of a factor of ten in the disorder and a factor of $10^4$ in avalanche cutoff. They are consistent with a critical disorder at zero and with a lower critical dimension for the model equal to two. 
+In three and higher dimensions~\cite{Perkovic96,Kuntz00}, measuring a
+variety of avalanche properties was crucial in pinning down the
+universal critical exponents and scaling functions. $dM/dH$ and the
+cumulative avalanche size distribution, measured here, were supplemented by
+measurements of finite-size scaling, avalanche correlation functions,
+avalanche sizes binned in $H$, spanning avalanches, avalanche durations,
+and average avalanche temporal shapes. Larger system sizes should be possible
+with improved Voronoi data structures; Fig.~\ref{fig:logplot} implies that
+whether $r_c=0$ or is negative would be definitively answered by a simulation
+big enough to contain avalanches with $1/\log(\Sigma) = 0.05$, so with
+$L \sim \sqrt(\Sigma) = e^{10} \approx 22,000$.\par
 %
-This work was partially supported by NSF grants  DMR-1719490 and DGE-1144153. We thank A. Alan Middleton and Gilles Tarjus for helpful discussions. 
+In summation, performing large scale simulations on a Voronoi lattice and analyzing the RG flow equations yields valuable insight into the behavior of the NE-RFIM in 2D. The obtained scaling collapses span over a range of a factor of ten in the disorder and a factor of $10^4$ in avalanche cutoff. They are consistent with a critical disorder at zero and with a lower critical dimension for the model equal to two. \par
+%
+This work was partially supported by NSF grants  DMR-1719490 and DGE-1144153. AR acknowledges support from the Simons Foundation. We thank A. Alan Middleton and Gilles Tarjus for helpful discussions. 
 
 \bibliography{RFIM2D}{}
 

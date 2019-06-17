@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  24 MAY 2019 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 13:09
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -71,10 +71,9 @@ File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
+Class revtex4-1 Info: Selecting journal prl on input line 7544.
+Class revtex4-1 Info: APS journal PRL selected on input line 7545.
 
-Class revtex4-1 Warning: No journal specified, using default pra.
-
-Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
@@ -377,25 +376,25 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \openout3 = `RFIM2DNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1048) in paragraph at lines 92--92
+Underfull \hbox (badness 1048) in paragraph at lines 97--97
 []\OT1/cmr/m/n/10 First con-sider the area weighted size dis-tri-bu-tion
  []
 
@@ -403,57 +402,48 @@ Underfull \hbox (badness 1048) in paragraph at lines 92--92
 File: A_collapse_inset.png Graphic file (type png)
 
 <use A_collapse_inset.png>
-Package pdftex.def Info: A_collapse_inset.png used on input line 97.
+Package pdftex.def Info: A_collapse_inset.png used on input line 102.
 (pdftex.def)             Requested size: 203.8632pt x 130.38812pt.
 
 <dMdh_collapse_inset.png, id=17, 680.5425pt x 430.60875pt>
 File: dMdh_collapse_inset.png Graphic file (type png)
 
 <use dMdh_collapse_inset.png>
-Package pdftex.def Info: dMdh_collapse_inset.png used on input line 103.
+Package pdftex.def Info: dMdh_collapse_inset.png used on input line 108.
 (pdftex.def)             Requested size: 204.16432pt x 129.18361pt.
  [2]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 110.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 110.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
 <comparison.png, id=25, 649.42625pt x 419.5675pt>
 File: comparison.png Graphic file (type png)
  <use comparison.png>
-Package pdftex.def Info: comparison.png used on input line 135.
+Package pdftex.def Info: comparison.png used on input line 140.
 (pdftex.def)             Requested size: 255.0pt x 164.74461pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 135--136
- [][] 
- []
-
-<logplot.png, id=26, 665.48625pt x 423.5825pt>
-File: logplot.png Graphic file (type png)
- <use logplot.png>
-Package pdftex.def Info: logplot.png used on input line 149.
-(pdftex.def)             Requested size: 255.0pt x 162.30739pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 149--150
+Overfull \hbox (9.0pt too wide) in paragraph at lines 140--141
  [][] 
  []
 
 [3 <./A_collapse_inset.png> <./dMdh_collapse_inset.png> <./comparison.png>]
+<logplot.png, id=32, 665.48625pt x 423.5825pt>
+File: logplot.png Graphic file (type png)
+ <use logplot.png>
+Package pdftex.def Info: logplot.png used on input line 154.
+(pdftex.def)             Requested size: 255.0pt x 162.30739pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 154--155
+ [][] 
+ []
+
 (./RFIM2D.bbl [4 <./logplot.png>]
-Underfull \hbox (badness 1596) in paragraph at lines 326--330
+Underfull \hbox (badness 1596) in paragraph at lines 306--310
  []\OT1/cmr/m/n/9 J. P. Sethna, K. A. Dah-men,  and O. Perkovic,
  []
 
 ) [5] (./RFIM2D.aux) ) 
 Here is how much of TeX's memory you used:
- 5954 strings out of 493029
- 84196 string characters out of 6136233
- 174758 words of memory out of 5000000
- 9382 multiletter control sequences out of 15000+600000
+ 5959 strings out of 493029
+ 84262 string characters out of 6136233
+ 184013 words of memory out of 5000000
+ 9386 multiletter control sequences out of 15000+600000
  14340 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,15n,43p,1656b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -473,7 +463,7 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RFIM2D.pdf (5 pages, 346804 bytes).
+Output written on RFIM2D.pdf (5 pages, 350403 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream

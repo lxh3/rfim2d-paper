@@ -24,45 +24,45 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty year in RFIM2Dsupp
-You've used 35 entries,
+You've used 36 entries,
             5847 wiz_defined-function locations,
-            1864 strings with 22034 characters,
-and the built_in function-call counts, 31085 in all, are:
-= -- 2054
-> -- 752
-< -- 219
-+ -- 245
-- -- 189
-* -- 4681
-:= -- 3098
-add.period$ -- 33
-call.type$ -- 35
-change.case$ -- 134
-chr.to.int$ -- 41
-cite$ -- 38
-duplicate$ -- 2914
-empty$ -- 2290
-format.name$ -- 447
-if$ -- 6151
+            1870 strings with 22095 characters,
+and the built_in function-call counts, 31906 in all, are:
+= -- 2114
+> -- 770
+< -- 224
++ -- 251
+- -- 193
+* -- 4798
+:= -- 3185
+add.period$ -- 34
+call.type$ -- 36
+change.case$ -- 138
+chr.to.int$ -- 42
+cite$ -- 39
+duplicate$ -- 2995
+empty$ -- 2352
+format.name$ -- 460
+if$ -- 6312
 int.to.chr$ -- 3
-int.to.str$ -- 42
-missing$ -- 383
-newline$ -- 151
-num.names$ -- 93
-pop$ -- 1271
+int.to.str$ -- 43
+missing$ -- 393
+newline$ -- 154
+num.names$ -- 96
+pop$ -- 1312
 preamble$ -- 1
-purify$ -- 163
+purify$ -- 168
 quote$ -- 0
-skip$ -- 1157
+skip$ -- 1185
 stack$ -- 0
-substring$ -- 865
-swap$ -- 2677
-text.length$ -- 85
+substring$ -- 878
+swap$ -- 2747
+text.length$ -- 87
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 458
+type$ -- 471
 warning$ -- 2
-while$ -- 97
+while$ -- 99
 width$ -- 0
-write$ -- 306
+write$ -- 314
 (There were 2 warnings)
