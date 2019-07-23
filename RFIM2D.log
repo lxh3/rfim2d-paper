@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  1 JUL 2019 09:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -440,10 +440,10 @@ Underfull \hbox (badness 1596) in paragraph at lines 306--310
 
 ) [5] (./RFIM2D.aux) ) 
 Here is how much of TeX's memory you used:
- 5959 strings out of 493029
- 84262 string characters out of 6136233
+ 5958 strings out of 493029
+ 84252 string characters out of 6136233
  184013 words of memory out of 5000000
- 9386 multiletter control sequences out of 15000+600000
+ 9385 multiletter control sequences out of 15000+600000
  14340 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,15n,43p,1656b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -463,7 +463,7 @@ cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RFIM2D.pdf (5 pages, 350403 bytes).
+Output written on RFIM2D.pdf (5 pages, 350666 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream

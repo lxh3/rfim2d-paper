@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  17 JUN 2019 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.22)  28 JUN 2019 14:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -478,7 +478,7 @@ arison.png>] (./supplement.aux) )
 Here is how much of TeX's memory you used:
  5917 strings out of 493029
  84156 string characters out of 6136233
- 186463 words of memory out of 5000000
+ 187463 words of memory out of 5000000
  9346 multiletter control sequences out of 15000+600000
  13994 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -500,7 +500,7 @@ s/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on supplement.pdf (6 pages, 3891007 bytes).
+Output written on supplement.pdf (6 pages, 3891013 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
